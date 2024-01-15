@@ -11,6 +11,7 @@ public class Square implements ArithmeticOperator{
         int returnValue = 1;
 
         for(int i=0; i<y; i++){
+
             returnValue*=y;
         }
 
