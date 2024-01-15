@@ -8,7 +8,7 @@ public class Division implements ArithmeticOperator {
     }
 
     @Override
-    public boolean calc(int x, int y) {
+    public int calc(int x, int y) {
 
         return x / y;
     }
